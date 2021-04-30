@@ -7,7 +7,7 @@ export default function Header() {
     let location = useLocation();
     return (
         <div className="header">
-            <h1>Resturent Management System</h1>
+            <h1>Ordering Management System</h1>
             <h3>{location.state}</h3>
         </div>
     )
